@@ -1,0 +1,23 @@
+.logo {
+    display: flex;
+    height: 10vh;
+    border-bottom: 1.5px solid gray;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialMedia, .panel {
+    display: flex;
+    flex-basis: 250px;
+    justify-content: space-around;
+}
+
+.fa-instagram, .fa-pinterest, .fa-facebook-f, .fa-search, .fa-user-circle, .fa-shopping-cart{
+    color: gray;
+    font-size: 22px;
+}
+
+.name p {
+    font-weight: bold;
+}
+
