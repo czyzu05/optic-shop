@@ -5,6 +5,7 @@ import Header from "./Header";
 import Navigation from "./Navigation";
 import Slider from "./Slider";
 import Gallery from "./Gallery";
+import Arivals from "./Arivals";
 
 import "../styles/App.css";
 
@@ -21,6 +22,7 @@ function App() {
           <Slider />
         </section>
         <Gallery />
+        <Arivals />
       </div>
     </Router>
   );

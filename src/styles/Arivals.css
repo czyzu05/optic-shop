@@ -1,0 +1,84 @@
+.Container {
+  max-width: 100%;
+}
+
+.Arivals > .grid-Arivals > div {
+  /* background: #bcbec4; */
+  width: 100%;
+}
+.Arivals > h4 {
+  padding-top: 72px;
+}
+.grid-Arivals {
+  display: grid;
+  max-width: 100%;
+  grid-template-rows: repeat(3, 360px);
+  grid-template-columns: repeat(3, 360px);
+  grid-gap: 10px;
+  justify-content: center;
+}
+.arivals {
+  width: 360px;
+  height: 360px;
+  /* display: flex;
+  align-content: space-between; */
+}
+
+.describe > h3 {
+  color: #212121;
+  font-family: "Josefin Sans";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.describe > p {
+  /* Style for "$157.00" */
+
+  color: #aeb0b5;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 90px;
+  text-transform: uppercase;
+}
+.grid-Arivals > img {
+  width: 100%;
+
+  object-fit: cover;
+  height: 100%;
+}
+
+.arivals-item-10,
+.arivals-item-11,
+.arivals-item-12,
+.arivals-item-13,
+.arivals-item-14,
+.arivals-item-15,
+.arivals-item-16,
+.arivals-item-17,
+.arivals-item-18,
+.arivals-item-19,
+.arivals-item-20,
+.arivals-item-21,
+.arivals-item-22,
+.arivals-item-23,
+.arivals-item-24,
+.arivals-item-25,
+.arivals-item-26,
+.arivals-item-27,
+.arivals-item-28,
+.arivals-item-29,
+.arivals-item-30 {
+  display: none;
+}
+
+.arivalsMoreBtn {
+  /* Style for "bttn" */
+  width: 570px;
+  height: 60px;
+  border-radius: 3px;
+  border: 1px solid #e7e8ea;
+  justify-content: center;
+  margin: 78px 104px;
+}
