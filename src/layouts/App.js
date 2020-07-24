@@ -3,9 +3,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import Header from "./Header";
 import Navigation from "./Navigation";
-import Slider from "./Slider";
-import Gallery from "./Gallery";
-import Arivals from "./Arivals";
+import Page from './Page'
 
 import "../styles/App.css";
 
@@ -19,10 +17,9 @@ function App() {
         </header>
 
         <section>
-          <Slider />
+          <Page/>
         </section>
-        <Gallery />
-        <Arivals />
+
       </div>
     </Router>
   );

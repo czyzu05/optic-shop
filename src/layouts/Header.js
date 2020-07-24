@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom'
 
 import '../styles/Header.css'
 
@@ -12,7 +13,7 @@ const Header = () => {
             </div>
 
             <div className="name">
-                <p>Optic</p>
+                <p><NavLink to="/" exact>Optic</NavLink></p>
             </div>
 
             <div className="panel">
