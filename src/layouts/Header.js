@@ -13,7 +13,7 @@ const Header = () => {
             </div>
 
             <div className="name">
-                <p><NavLink to="/" exact>Optic</NavLink></p>
+                <p><NavLink to="/" exact >Optic</NavLink></p>
             </div>
 
             <div className="panel">
