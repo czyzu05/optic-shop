@@ -12,43 +12,50 @@
 .grid-Arivals {
   display: grid;
   max-width: 100%;
-  grid-template-rows: repeat(3, 360px);
-  grid-template-columns: repeat(3, 360px);
+
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: repeat(3, 472px);
   grid-gap: 10px;
   justify-content: center;
 }
 .arivals {
-  width: 360px;
-  height: 360px;
-  /* display: flex;
-  align-content: space-between; */
+  width: 400px;
+  min-height: 472px;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
 }
 
+/* .testgl {
+} */
+.describe {
+  margin-top: 0px;
+  background: blue;
+}
 .describe > h3 {
+  /* Style for "Element Bo" */
+
+  height: 25px;
   color: #212121;
   font-family: "Josefin Sans";
   font-size: 26px;
-  font-weight: 400;
-  line-height: 40px;
+
+  background: coral;
 }
-
 .describe > p {
-  /* Style for "$157.00" */
-
+  /* Style for "$67.00" */
+  justify-content: center;
   color: #aeb0b5;
   font-family: Poppins;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 90px;
+
   text-transform: uppercase;
-}
-.grid-Arivals > img {
-  width: 100%;
-
-  object-fit: cover;
-  height: 100%;
+  background: teal;
 }
 
+.arivals-item-7,
+.arivals-item-8,
+.arivals-item-9,
 .arivals-item-10,
 .arivals-item-11,
 .arivals-item-12,

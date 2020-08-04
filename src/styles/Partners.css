@@ -1,0 +1,21 @@
+.Partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 352px;
+}
+.Partners-desc {
+  width: 30%;
+
+  display: flex;
+}
+.Partners-desc > p {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.Brands {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}

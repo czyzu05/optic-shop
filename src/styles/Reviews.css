@@ -1,0 +1,21 @@
+.Reviews {
+  display: flex;
+  flex-direction: row;
+  max-height: 515px;
+  height: 515px;
+}
+.wrapper-img {
+  width: 50%;
+}
+.wrapper-img > img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 515px;
+}
+.personal-reviews {
+  width: 50%;
+}
+.reviews-footer > img {
+  object-fit: cover;
+  width: 100px;
+}
