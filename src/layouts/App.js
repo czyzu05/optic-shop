@@ -6,8 +6,12 @@ import Navigation from "./Navigation";
 import Page from "./Page";
 import Partners from "./Partners";
 import Reviews from "./Reviews";
-
+import OpticServices from "./OpticServices";
+import Desc from "./Desc";
+import Social from "./Social";
+import Newsletter from "./Newsletter";
 import "../styles/App.css";
+import FooterNav from "./Footer-nav";
 
 function App() {
   return (
@@ -23,7 +27,13 @@ function App() {
         </section>
         <Partners></Partners>
         <Reviews></Reviews>
-        <footer></footer>
+        <OpticServices></OpticServices>
+        <footer>
+          <Social></Social>
+          <FooterNav></FooterNav>
+          <Newsletter></Newsletter>
+        </footer>
+        <Desc></Desc>
       </div>
     </Router>
   );

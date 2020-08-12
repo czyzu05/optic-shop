@@ -1,0 +1,16 @@
+.nav {
+  width: 40%;
+}
+.nav > ul {
+  height: 233px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+ul > li {
+  font-size: 17px;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
