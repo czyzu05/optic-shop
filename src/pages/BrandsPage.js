@@ -3,9 +3,9 @@ import React from 'react'
 const BrandsPage = () => {
     return (
         <div>
-            Brands Page
+            BrandsPage
         </div>
     );
 }
- 
-export default BrandsPage;
+
+export default BrandsPage

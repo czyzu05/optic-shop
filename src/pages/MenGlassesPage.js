@@ -1,11 +1,14 @@
 import React from 'react'
 
+import ProductsList from '../layouts/ProductsList'
+
 const MenGlassesPage = () => {
     return (
-        <div>
-            MenGlassesPage
-        </div>
-    );
+        <>
+            {/* <FilterBar /> */}
+            <ProductsList />
+        </>
+    )
 }
- 
-export default MenGlassesPage;
+
+export default MenGlassesPage
