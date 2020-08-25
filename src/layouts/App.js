@@ -21,7 +21,6 @@ function App() {
           <Header />
           <Navigation />
         </header>
-
         <section>
           <Page />
         </section>
