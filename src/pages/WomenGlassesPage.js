@@ -1,11 +1,12 @@
 import React from 'react'
+import ProductsList from '../layouts/ProductsList'
 
 const WomenGlassesPage = () => {
     return (
         <div>
-            WomenGlassesPage
+            <ProductsList productsTerm="women sunglasses" />
         </div>
     );
 }
- 
+
 export default WomenGlassesPage;

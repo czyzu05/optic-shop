@@ -5,8 +5,7 @@ import ProductsList from '../layouts/ProductsList'
 const MenGlassesPage = () => {
     return (
         <>
-            {/* <FilterBar /> */}
-            <ProductsList />
+            <ProductsList productsTerm="men sunglasses" />
         </>
     )
 }
