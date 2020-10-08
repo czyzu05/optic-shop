@@ -1,6 +1,7 @@
 import React from "react";
 
 const Product = ({ brandName, imageUrl, price }) => {
+  console.log({ brandName, imageUrl, price });
   return (
     <div>
       <img src={`https://${imageUrl}`} alt="sunglasses" />
